@@ -1,0 +1,89 @@
+.footer {
+    background: var(--footer-color);
+    color: var(--alt-color);
+}
+
+.footer span {
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul span {
+    margin-bottom: 40px;
+}
+.footer ul li {
+    margin-bottom: 14px;
+    font-size: var(--p-size);
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 200ms;
+}
+.footer ul li:hover {
+    opacity: 1;
+}
+.footer .application {
+    text-transform: uppercase;
+}
+.footer .inf div:first-child {
+    font-size: 13px;
+    opacity: 0.8;
+}
+.footer .inf div:last-child {
+    font-size: var(--p-size);
+    font-weight: 600;
+}
+.footer .play {
+    background: var(--main-color);
+    padding: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+    margin-right: 2%;
+}
+.footer .play i {
+    color: var(--first-color);
+    margin-right: 5px;
+}
+.footer .appstore {
+    background: var(--first-color);
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--main-color);
+    width: 48%;
+    margin-left: 2%;
+}
+.footer .appstore i {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+
+.footer .follow .socials {
+
+}
+
+.footer .follow i {
+    color: var(--alt-color);
+    background: var(--main-color);
+    padding: 12px;
+    margin: 7px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.footer .follow i:hover {
+    background: var(--first-color);
+    color: var(--main-color);
+}
+.footer p:last-child {
+    text-align: center;
+    opacity: 0.7;
+    margin: 50px 0 20px;
+}
+.footer p:last-child div {
+    color: var(--first-color);
+    display: inline;
+}

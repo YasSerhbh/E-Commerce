@@ -1,0 +1,44 @@
+
+
+.journal {
+    background: var(--main-color);
+}
+
+.journal .card-j .date {
+    /* opacity: 0.7; */
+    font-size: 13px;
+    padding-left: 20px;
+    position: relative;
+    color: var(--date-color);
+}
+
+
+.card-j .date::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--first-color);
+    border-radius: 2px;
+}
+
+.card-j p {
+    color: var(--alt-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-j .stts {
+    color: var(--alt-color);
+    opacity: 0.6;
+    font-size: 13px;
+}
+.card-j .stts .fashion {
+    margin-right: 25px;
+}
+.card-j .stts i {
+    margin-right: 5px;
+}

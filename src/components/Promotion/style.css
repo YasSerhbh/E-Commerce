@@ -1,0 +1,22 @@
+/* #f7f2eb */
+
+/* font-family: 'Dancing Script', cursive; */
+
+.promotion {
+    background: var(--prom-color) ;
+}
+
+.promotion .prom {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    color: var(--alt-color);
+}
+.promotion .infos span {
+    color: var(--alt-color);
+    font-size: 26px;
+    opacity: 60%;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+}

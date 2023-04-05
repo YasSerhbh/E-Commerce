@@ -1,0 +1,22 @@
+
+.info {
+    background: var(--second-color);
+    color: #444242;
+    font-size: 11px;
+}
+.info .content span {
+    padding: 10px;
+    position: relative;
+    color: var(--alt-color);
+}
+.info span.h::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 40%;
+    right: 0;
+    background: #444242;
+}
+.other span {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+
+.social .phot {
+    position: relative;
+    /* width: fit-content !important; */
+}
+
+/*  */
+.social {
+    background: var(--main-color);
+}
+.social img{
+    width: 100% !important;
+}
+
+.social .hova {
+    position: absolute;
+    width: 91%;
+    height: 100%;
+    background: #e16868a8;
+    top: 0;
+    left: 0;
+    margin-left: 4.5%;
+    display: none;
+}
+.social .hova i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 45px;
+    color: var(--main-color);
+    transform: translate(-50%, -50%);
+}
